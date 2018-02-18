@@ -1,0 +1,6 @@
+export PATH=/Applications/FDS/FDS6/bin:$PATH
+export PATH=/Applications/FDS/FDS6/bin/openmpi_64/bin:$PATH
+export OPAL_PREFIX=/Applications/FDS/FDS6/bin/openmpi_64
+#  set OMP_NUM_THREADS to max of 4 and "Total Number of Cores" obtained from running
+#  system_profiler SPHardwareDataType
+export OMP_NUM_THREADS=4
